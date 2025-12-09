@@ -20,6 +20,7 @@ def write_file():
     save.write(health + '/' + health + '\n')
     save.write("level: 1\n")
     save.write("---inventory---")
+    save.close()
 def main():
     print(f"Importing data to new character sheet")
     write_file()
